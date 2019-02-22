@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="utf-8" />
+    <title>Feedback page</title>
+  </head>
+  <body>
+    <header>
+      <h1>Feedback page</h1>
+      <nav><a href="index.html">Back to homepage</a></nav>
+      <hr />
+    </header>
+    <main>
+      <form method="POST" action="https://formspree.io/valentyn17@gmail.com">
+        <label>
+          Your name:
+          <input type="text" placeholder="Enter your name" name="username" />
+        </label>
+        <br />
+        <label>
+          Your email:
+          <input
+            type="email"
+            placeholder="Enter your email"
+            name="user-email"
+          />
+        </label>
+        <br />
+        <input type="textarea" cols="40" rows="5" name="user-comment" /> <br />
+        <input type="submit" value="Send" /> <br />
+      </form>
+    </main>
+    <hr />
+    <footer><small>© Copyright 2019</small></footer>
+  </body>
+</html>
